@@ -1,0 +1,65 @@
+.content {
+	position: relative;
+}
+
+p, a, h1, h2, h3 {
+	font-family: "Roboto", sans-serif;
+}
+
+.navbar-brand {
+	font-family: "Cardo", sans-serif;
+}
+
+.navbar {
+	z-index: 1000 !important;
+	margin-bottom: 0px !important;
+	border-radius: 0px !important;
+	border-bottom: 1px solid #d2d2d2 !important;
+}
+
+.navbar-nav > li > a {
+	text-transform: uppercase;
+	color: #333333;
+	padding-left: 40px !important;
+	padding-right: 40px !important;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.hook {
+	min-height: 500px;
+	background-image: url("../images/river-transparent.jpg");
+	background-size: cover;
+	line-height: 220px;
+}
+
+.hook-content {
+	font-size: 40px;
+	margin: auto 3%;
+	position: relative;
+	width: 60%;
+	color: white;
+}
+
+.intro {
+	font-weight: bold;
+	font-size: 50px;
+	text-shadow: 2px 2px 2px #222222;
+	display: inline-block;
+	vertical-align: middle;
+}
+.separator {
+	width: 20%;
+	height: 3px;
+	line-height: 0px;
+	border-bottom: 4px solid rgb(0, 255, 180);
+}
+.subtitle {
+	font-weight: bold;
+	font-size: 30px;
+	top: -50px;
+	position: relative;
+	text-shadow: 1px 1px 1px #222222;
+	display: inline-block;
+	vertical-align: middle;
+}
