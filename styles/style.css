@@ -30,7 +30,6 @@ p, a, h1, h2, h3 {
 	min-height: 500px;
 	background-image: url("../images/river-transparent.jpg");
 	background-size: cover;
-	line-height: 220px;
 }
 
 .hook-content {
@@ -40,18 +39,20 @@ p, a, h1, h2, h3 {
 	width: 60%;
 	color: white;
 }
-
+.content-line {
+	line-height: 200px;
+	vertical-align: middle;
+}
 .intro {
 	font-weight: bold;
+	vertical-align: middle;
 	font-size: 50px;
 	text-shadow: 2px 2px 2px #222222;
 	display: inline-block;
-	vertical-align: middle;
 }
 .separator {
 	width: 20%;
 	height: 3px;
-	line-height: 0px;
 	border-bottom: 4px solid rgb(0, 255, 180);
 }
 .subtitle {
@@ -63,3 +64,51 @@ p, a, h1, h2, h3 {
 	display: inline-block;
 	vertical-align: middle;
 }
+#volunteer {
+	position: relative;
+	top: -85px;
+}
+
+#purpose {
+	margin-top: 40px;
+}
+.purpose-picture {
+	color: rgb(124, 205, 87);
+	float: left;
+}
+.purpose-description {
+	color: black;
+	position: relative;
+	left: 10px;
+}
+.purpose-title {
+	font-size: 22px;
+	position: relative;
+	left: 10px;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
