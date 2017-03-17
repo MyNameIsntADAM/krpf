@@ -87,10 +87,129 @@ p, a, h1, h2, h3 {
 	left: 10px;
 	font-weight: bold;
 }
+.photos {
+	background-color: #f6f6f6;
+	min-height: 400px;
+	margin-top: 40px;
+}
+.words {
+	min-height: 500px;
+}
+.title {
+	padding-top: 80px;
+	margin-right: auto;
+	margin-left: auto;
+	font-weight: bold;
+	padding-bottom: 16px;
+	border-bottom: 3px solid rgb(124, 205, 87);
+	text-align: center;
+	width: 30%;
+	margin-bottom: 60px;
+}
 
-
-
-
+.testimonials blockquote {
+	background: #dcdcdc none repeat scroll 0 0;
+	border: medium none;
+	color: #666;
+	display: block;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 15px;
+	position: relative;
+}
+.testimonials blockquote::before {
+	width: 0;
+	height: 0;
+	right: 0;
+	bottom: 0;
+	content: "";
+	display: block;
+	position: absolute;
+	border-bottom: 20px solid #fff;
+	border-right: 0 solid transparent;
+	border-left: 20px solid transparent;
+	border-left-style: inset;
+	border-bottom-style: inset;
+}
+.testimonials blockquote::after {
+    width: 0;
+    height: 0;
+    right: 0;
+    bottom: 0;
+    content: " ";
+    display: block;
+    position: absolute;
+    border-style: solid;
+    border-width: 20px 20px 0 0;
+    border-color: #e63f0c transparent transparent transparent;
+}
+.testimonials .carousel-info img {
+    border: 1px solid #f5f5f5;
+    border-radius: 150px !important;
+    height: 75px;
+    padding: 3px;
+    width: 75px;
+}
+.testimonials .carousel-info {
+    overflow: hidden;
+}
+.testimonials .carousel-info img {
+    margin-right: 15px;
+}
+.testimonials .carousel-info span {
+    display: block;
+}
+.testimonials span.testimonials-name {
+    color: #e6400c;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 23px 0 7px;
+}
+.testimonials span.testimonials-post {
+    color: #656565;
+    font-size: 12px;
+}
+footer {
+	background-color: #444444;
+}
+.copyright {
+	vertical-align: middle;
+	text-align: center;
+	color: #eeeeee;
+	font-size: 1.2em;
+	line-height: 60px;
+}
+.social-buttons {
+	margin: 10px 0;
+}
+ul.social-buttons li a {
+  display: block;
+  text-align: center;
+  background-color: rgb(124, 205, 87);
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  font-size: 20px;
+  line-height: 40px;
+  color: white;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+  background-color: rgb(124, 205, 87);
+}
+.change-testimonial {
+	border: none;
+	background-color: green;
+	color: white;
+	font-size: 5em;
+	display: inline-block;
+	text-decoration: none;
+}
 
 
 
